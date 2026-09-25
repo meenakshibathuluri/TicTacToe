@@ -1,3 +1,4 @@
+
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-btn");
@@ -89,4 +90,8 @@ const checkWinner = () => {
 };
 
 newGameBtn.addEventListener("click", resetGame);
+<<<<<<< HEAD
 resetBtn.addEventListener("click", resetGame);
+=======
+resetBtn.addEventListener("click", resetGame);
+>>>>>>> 04bb89841132a4e3fe1fd1e608e611844bea049c
